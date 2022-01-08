@@ -1,7 +1,7 @@
 Package: appfinRcpp
 Type: Package
 Title: Up-and-out put option price
-Version: 1.0
+Version: 0.1.0
 Author: Dariusz Kęsicki
 Maintainer: Dariusz Ceglinska <darek.kesicki@gmail.com>
 Description: The package calculates the theoretical price of dup-and-out put option (using Monte Carlo simulation). 
