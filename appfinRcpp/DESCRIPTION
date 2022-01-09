@@ -4,7 +4,7 @@ Title: Up-and-out put option price
 Version: 1.0
 Author: Dariusz Kęsicki
 Maintainer: Dariusz Kęsicki <darek.kesicki@gmail.com>
-Description: The package calculates the theoretical price of dup-and-out put option (using Monte Carlo simulation). 
+Description: The package calculates the theoretical price of up-and-out put option (using Monte Carlo simulation). 
     The algorithm generates a number of price paths defined by user. For each path, if the maximum price 
     is below the barrier price, the payoff is equal to vanilla put option, else the payoff is zero.
 License: GPL (>= 2)
