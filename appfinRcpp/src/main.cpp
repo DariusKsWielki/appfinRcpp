@@ -22,7 +22,7 @@ double getUpAndOutPutOption(
 
 	UpAndOutOption myOption(nInt, Strike, Spot, Vol, Rfr, Expiry, Barrier);
 
-	double price = myOption.getUpAndOutPutOption(nReps);
+	double price = myOption.getUpAndOutPutPrice(nReps);
 	
 	return price;
 }
