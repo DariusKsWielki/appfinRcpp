@@ -21,8 +21,8 @@ public:
 	void generatePath();
 	void printPath();
 	double getMaxValue();
-	double UpAndOutOptionCallPrice(int nReps);
-	double UpAndOutOptionPutPrice(int nReps);
+	double getUpAndOutCallPrice(int nReps);
+	double getUpAndOutPutPrice(int nReps);
 	double operator()(char char1, int nReps);
 	
 	//members
