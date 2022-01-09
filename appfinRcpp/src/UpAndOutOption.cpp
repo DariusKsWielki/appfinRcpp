@@ -45,7 +45,7 @@ void UpAndOutOption::printPath(){
 
 }
 
-double UpAndOutOption::getUpAndOutOptionCallPrice(int nReps){
+double UpAndOutOption::getUpAndOutCallPrice(int nReps){
 
   double lastSpot;
   double rollingSum = 0.0;
@@ -63,7 +63,7 @@ double UpAndOutOption::getUpAndOutOptionCallPrice(int nReps){
 
 }
 
-double UpAndOutOption::getUpAndOutOptionPutPrice(int nReps){
+double UpAndOutOption::getUpAndOutPutPrice(int nReps){
 
   double lastSpot;
 	double rollingSum = 0.0;
@@ -86,7 +86,7 @@ double UpAndOutOption::getMaxValue(){
 }
 
 double UpAndOutOption::operator()(char char1, int nReps){
-	if (char1 == 'C') return getUpAndOutOptionCallPrice(nReps);
-	else if (char1 == 'P') return getUpAndOutOptionPutPrice(nReps);
+	if (char1 == 'C') return getUpAndOutCallPrice(nReps);
+	else if (char1 == 'P') return getUpAndOutPutPrice(nReps);
 	else return -99;
 }
